@@ -3,8 +3,7 @@
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "47",
     "sdk" : "org.gnome.Sdk",
-    "runtime-version" : "47",
-    "sdk-extensions" : [
+    "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
     "command" : "folder_icon",
@@ -48,7 +47,7 @@
                 {
                     "type": "archive",
                     "url" : "https://github.com/youpie/Iconic/releases/download/v2024.10.1/Iconic-Release.tar.xz",
-                    "sha256" : "9a3ca413b5b1e27eb019a86aaee7bbaddad84f7cf963d2304f2799d5927ef14b"
+                    "sha256" : "67199699096197daed692688e621fb37991d1706287552f0b1e86d3382aa8bad"
                     
                 }
             ]
