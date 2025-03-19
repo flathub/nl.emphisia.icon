@@ -46,8 +46,8 @@
             "sources" : [
                 {
                     "type": "archive",
-                    "url" : "https://github.com/youpie/Iconic/releases/download/v2024.12.2/Iconic-Release.tar.xz",
-                    "sha256" : "d28b80a53afb788f0b5d513bc13e3590a2043696843cc46f2321397dd7e8b477"
+                    "url" : "https://github.com/youpie/Iconic/releases/download/v2025.3.1/Iconic-Release.tar.xz",
+                    "sha256" : "0b1dceffad4137d8545e194c3083e16c2bcb5bfb04fa260ee6ba67c2b117acba"
                     
                 }
             ]
