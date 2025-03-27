@@ -1,7 +1,7 @@
 {
-    "app-id" : "nl.emphisia.icon",
+    "id" : "nl.emphisia.icon",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "48",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -36,7 +36,7 @@
                 {
                 "type": "git",
                 "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                "tag": "v0.14.0"
+                "tag": "v0.16.0"
                 }
             ]
         },
@@ -46,8 +46,8 @@
             "sources" : [
                 {
                     "type": "archive",
-                    "url" : "https://github.com/youpie/Iconic/releases/download/v2025.3.1/Iconic-Release.tar.xz",
-                    "sha256" : "0b1dceffad4137d8545e194c3083e16c2bcb5bfb04fa260ee6ba67c2b117acba"
+                    "url" : "https://github.com/youpie/Iconic/releases/download/v2025.3.2/Iconic-Release.tar.xz",
+                    "sha256" : "819dacef90173ece0aae0981684eb43770a70d600ceb701402f7cedafd4173f8"
                     
                 }
             ]
