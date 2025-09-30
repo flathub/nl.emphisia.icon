@@ -1,22 +1,25 @@
 {
-    "id" : "nl.emphisia.icon",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
-    "sdk" : "org.gnome.Sdk",
+    "id": "nl.emphisia.icon",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "49",
+    "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
-    "command" : "folder_icon",
-    "finish-args" : [
+    "command": "Iconic",
+    "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
     ],
-    "build-options" : {
-        "append-path" : "/usr/lib/sdk/rust-stable/bin"
+    "build-options": {
+        "append-path": "/usr/lib/sdk/rust-stable/bin",
+        "env": {
+            "RUST_LOG": "Iconic=info"
+        }
     },
-    "cleanup" : [
+    "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -27,27 +30,29 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [
+    "modules": [
         {
             "name": "blueprint-compiler",
             "buildsystem": "meson",
-            "cleanup": ["*"],
+            "cleanup": [
+                "*"
+            ],
             "sources": [
                 {
-                "type": "git",
-                "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                "tag": "v0.16.0"
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+                    "tag": "v0.18.0"
                 }
             ]
         },
         {
-            "name" : "folder_icon",
+            "name" : "Iconic",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type": "archive",
-                    "url" : "https://github.com/youpie/Iconic/releases/download/v2025.3.2/Iconic-Release.tar.xz",
-                    "sha256" : "819dacef90173ece0aae0981684eb43770a70d600ceb701402f7cedafd4173f8"
+                    "url" : "https://github.com/youpie/Iconic/releases/download/v2025.9.1/Iconic-2025.9.1.tar.xz",
+                    "sha256" : "3eb68efbb8bd0e8f3d6bfc9e06053a3d581ea755cae52998403cc6255258161f"
                     
                 }
             ]
