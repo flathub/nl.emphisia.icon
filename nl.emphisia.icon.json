@@ -32,27 +32,13 @@
     ],
     "modules": [
         {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.18.0"
-                }
-            ]
-        },
-        {
             "name" : "Iconic",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type": "archive",
                     "url" : "https://github.com/youpie/Iconic/releases/download/v2025.9.1/Iconic-2025.9.1.tar.xz",
-                    "sha256" : "5b5732aeb6dd8482b64bef95e8a85c239b23ef14bbce1ec7e04fa64787dd735f"
+                    "sha256" : "5f377501488f20669353571b976370e3624d27a0695bedf793424565921ce49d"
                     
                 }
             ]
