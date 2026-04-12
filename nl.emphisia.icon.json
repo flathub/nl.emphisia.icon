@@ -21,14 +21,13 @@
     },
     "modules": [
         {
-            "name" : "Iconic",
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "Iconic",
+            "buildsystem": "meson",
+            "sources": [
                 {
                     "type": "archive",
-                    "url" : "https://github.com/youpie/Iconic/releases/download/v2025.9.1/Iconic-2025.9.1.tar.xz",
-                    "sha256" : "5f377501488f20669353571b976370e3624d27a0695bedf793424565921ce49d"
-                    
+                    "url": "https://github.com/youpie/Iconic/releases/download/v2026.4.1/Iconic-2026.4.1.tar.xz",
+                    "sha256": "620f85544d4936a70ddeed5f09bf5d0e15f80ec0cc31b08bc1910e9972a3caa4"
                 }
             ]
         }
