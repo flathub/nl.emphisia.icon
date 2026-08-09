@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/youpie/Iconic/releases/download/v2026.4.1/Iconic-2026.4.1.tar.xz",
-                    "sha256": "c95687c56d65c70eb1887de98bc332fba8b2186ff391c7d6ffb377e34aad9702"
+                    "url": "https://github.com/youpie/Iconic/releases/download/v2026.8.1/Iconic-2026.8.1.tar.xz",
+                    "sha256": "c1432d3631a817c7a5fbcc93783ea6dd97db51105e718c9c98d5702eb46b0811"
                 }
             ]
         }
